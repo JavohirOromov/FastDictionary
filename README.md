@@ -13,7 +13,7 @@ Mening Fast Dictionary dasturim
 - Kotlin
 - Android
 - Shared Preferences
-- AlerDialog
+- AlertDialog
 - Fragment
 - ViewBinding/Kirich
 - MVVM arxitekturni pattern
