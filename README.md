@@ -42,4 +42,4 @@ Mening Fast Dictionary dasturim
 1.Repozitoriyni klonlash:
 
 ```bash
-https://github.com/JavohirOromov/QuizTrivia.git
+https://github.com/JavohirOromov/FastDictionary.git
