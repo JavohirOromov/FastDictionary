@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.fastdictionary.screen.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/right_to_left"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/left_to_right"
+            app:popExitAnim="@anim/fade_out"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.fastdictionary.screen.main.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment"
+            app:enterAnim="@anim/right_to_left"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/left_to_right"
+            app:popExitAnim="@anim/fade_out"
+            />
+        <action
+            android:id="@+id/action_mainFragment_to_infoFragment"
+            app:destination="@id/infoFragment"
+            app:enterAnim="@anim/right_to_left"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/left_to_right"
+            app:popExitAnim="@anim/fade_out"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.fastdictionary.screen.favourite.FavoriteFragment"
+        android:label="FavoriteFragment" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/right_to_left"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/left_to_right"
+            app:popExitAnim="@anim/fade_out"
+            />
+        <argument
+            android:name="isLanguage"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.fastdictionary.screen.info.InfoFragment"
+        android:label="InfoFragment"
+        app:enterAnim="@anim/right_to_left"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/left_to_right"
+        app:popExitAnim="@anim/fade_out"
+        />
+</navigation>
