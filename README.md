@@ -32,7 +32,7 @@ Mening Fast Dictionary dasturim
   <img src="https://drive.google.com/uc?export=view&id=1RJPeE-Mv9B-oo2AsweTk2wnewfkwJ2L6" width="10%" />
    <img src="https://drive.google.com/uc?export=view&id=1LDQtZTkWPwxd9r9KKIJ88FUc11_HVPxp" width="10%" />
   <img src="https://drive.google.com/uc?export=view&id=10EXx8Chl95LFqCNWYjvIxPJyFIfGcJKw" width="10%" />
-  <img src="https://drive.google.com/uc?export=view&id=1-dlWZt2C3-zVJ4lQ-rXcy2gF3O5B9gEq" width="10%" />
+  <img src="https://drive.google.com/uc?export=view&id=1M0i7Q0b0v4UnUythdi1nLiVspdR-e5C-" width="10%" />
    <img src="https://drive.google.com/uc?export=view&id=1HjjIKe4e3XyY-uhQoZYt7xpP1vOAHUNp" width="10%" />
   <img src="https://drive.google.com/uc?export=view&id=17LIBvG8uWLj8mgEvT-xky1sP_R071xVC" width="10%" />
 </p>
