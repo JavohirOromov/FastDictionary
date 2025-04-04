@@ -115,7 +115,8 @@
                 android:maxLength="20"
                 android:maxLines="1"
                 android:textSize="20sp"
-                android:textColor="#312A2A"
+                android:textColor="@color/white"
+                android:textColorHint="#D0CECE"
                 />
 
         </LinearLayout>

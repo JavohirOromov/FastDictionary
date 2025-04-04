@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:background="@drawable/bg_4"
+        android:background="@drawable/bg_5"
         >
 
         <TextView
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:text="Eng:"
             android:textSize="24sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:fontFamily="@font/font1"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -43,7 +43,7 @@
             app:layout_constraintLeft_toRightOf="@id/eng"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="@id/eng"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             />
 
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="adv"
             android:textSize="18sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintLeft_toRightOf="@id/engImg"
             app:layout_constraintTop_toTopOf="@id/engImg"
             app:layout_constraintBottom_toBottomOf="@id/engImg"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@id/const1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:background="@drawable/bg_4"
+        android:background="@drawable/bg_5"
         android:layout_marginVertical="22dp"
         >
 
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:text="Countable"
             android:textSize="24sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:fontFamily="@font/font1"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -109,7 +109,7 @@
             app:layout_constraintLeft_toRightOf="@id/countable"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="@id/countable"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             app:layout_constraintHorizontal_bias="0.4"
             />
@@ -124,7 +124,7 @@
             android:layout_marginStart="12dp"
             android:src="@drawable/eng_img"
             android:text="Transcript"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:fontFamily="@font/font1"
             />
@@ -135,7 +135,7 @@
             android:layout_height="wrap_content"
             android:text="/sdfsdf/"
             android:textSize="18sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintLeft_toRightOf="@id/transcript"
             app:layout_constraintTop_toTopOf="@id/transcript"
             app:layout_constraintBottom_toBottomOf="@id/transcript"
@@ -152,7 +152,7 @@
         app:layout_constraintTop_toBottomOf="@id/const2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:background="@drawable/bg_4"
+        android:background="@drawable/bg_5"
         android:layout_marginTop="22sp"
         >
 
@@ -162,7 +162,7 @@
             android:layout_height="wrap_content"
             android:text="Uzb:"
             android:textSize="24sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:fontFamily="@font/font1"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -180,7 +180,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             />
 
@@ -223,7 +223,7 @@
         android:textColor="@color/white"
         android:textAllCaps="false"
         android:textSize="18sp"
-        android:background="@drawable/bg_4"
+        android:background="@drawable/bg_6"
         />
     <ImageView
         android:id="@+id/sound"
